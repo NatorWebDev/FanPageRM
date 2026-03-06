@@ -5,6 +5,9 @@
   body {
     font-family: 'Jacques Francois', serif;
   }
+  .dojoBg{
+    background-image: url(dojo.jpg);
+  }
 }
 
 
