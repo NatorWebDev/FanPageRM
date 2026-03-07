@@ -54,7 +54,7 @@ export default function Ranma() {
 
             <div className="absolute w-full h-full z-40 clip flex justify-center items-center" ref={courtain}>
                 <div className="absolute w-full h-full z-43 bg-primario/30"></div>
-                <img src="clip2.png" alt="Ranma" className="w-full h-full z-42 object-contain absolute dojoBg select-none" />
+                <img src="clip2.png" alt="Ranma" className="w-full h-full z-42 object-contain absolute select-none" />
                 <img src="chibi2.png" alt="chibi" className="absolute z-43 left-1/2 -translate-x-1/2 w-50 object-contain bottom-8" />
                 <div className="textoRanma absolute w-1/3 z-43 text-black  font-medium pb-20">
                     <h2 className="text-4xl text-center pb-4 text-black ">Ranma Saotome</h2>
@@ -64,7 +64,9 @@ export default function Ranma() {
 
             <div className="absolute w-full h-full z-30 flex justify-center items-center">
                 <div className="absolute w-full h-full z-33 bg-black/20"></div>
-                <img src="clip1.png" alt="Ranma" className="w-full h-full z=32 object-contain absolute  bg-[url('dojo.jpg')] select-none" />
+                <img src="clip1.png" alt="Ranma" className="w-full h-full z-32 object-contain absolute select-none" 
+                    style={{backgroundImage : 'url("dojo.jpg")',backgroundSize:'cover'}}
+                />
                 <img src="chibi1.png" alt="chibi" className="absolute left-1/2 -translate-x-1/2 w-50 object-contain bottom-10" />
                 <div className="textoRanma absolute w-1/3 z-43 sombra font-medium pb-20 text-primario">
                     <h2 className="text-4xl text-center pb-4 sombra">Ranma Saotome</h2>
